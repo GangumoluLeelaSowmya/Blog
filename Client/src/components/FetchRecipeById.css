@@ -1,0 +1,20 @@
+/* Button styling */
+.btn-warning {
+    background-color: #9de176; /* Green background */
+    border: none; /* Remove default border */
+    color: #ffffff; /* White text */
+    padding: 10px 20px; /* Add padding for better button size */
+    font-size: 1rem; /* Ensure text is readable */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .btn-warning:hover {
+    background-color: #7fbf4b; /* Darker green for hover effect */
+  }
+  body {
+    font-family: 'Outfit', sans-serif;
+  }
+  
+  

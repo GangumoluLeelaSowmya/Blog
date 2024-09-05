@@ -1,0 +1,44 @@
+/* Default light theme styles */
+body {
+  background-color: white;
+  font-family: 'Outfit', sans-serif;
+  color: black;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Dark theme styles */
+body.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+.nav.dark-mode {
+  background-color: #444;
+}
+/* Default light theme styles */
+.btn {
+  color: white;
+  border: 1px solid #28a745;
+  background-color: #28a745;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Dark theme styles */
+.dark-mode .btn {
+  color: white;
+  border: 1px solid #28a745;
+  background-color: #28a745;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
